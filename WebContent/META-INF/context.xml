@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/workshop"
+			  auth="Container"
+			  type="javax.sql.DataSource"
+			  username="root"
+			  password="coderslab"
+			  driverClassName="com.mysql.jdbc.Driver"
+			  url="jdbc:mysql://localhost:3306/workshop?useSSL=false"
+			  maxActive="1"
+			  maxIdle="1"
+		 	  maxWait="1" />
+</Context>
